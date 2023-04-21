@@ -7,7 +7,7 @@ import Header from "../sections/Header";
 import Footer from "../sections/Footer";
 
 const name = "Hoang-Nam LuuPham";
-export const siteTitle = '"Hi Nam!"';
+export const siteTitle = '"Hi HN!"';
 
 export default function Layout({ children, home }) {
 	return (
