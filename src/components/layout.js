@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "./layout.module.css";
+import styles from "../styles/layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import Header from "../sections/Header";
-import Footer from "../sections/Footer";
+import Header from "./sections/Header";
+import Footer from "./sections/Footer";
 
 const name = "Hoang-Nam LuuPham";
 export const siteTitle = '"Hi HN!"';
@@ -33,8 +33,7 @@ export default function Layout({ children, home }) {
 							<h1 className={utilStyles.headingXl}>{name}</h1>
 						</>
 					) : (
-						<>
-						</>
+						<></>
 					)}
 				</header>
 				<main>{children}</main>
@@ -44,7 +43,7 @@ export default function Layout({ children, home }) {
 					</div>
 				)}
 				<div className="flex fixed bottom-2">
-				<Footer />
+					<Footer />
 				</div>
 			</div>
 		</>

@@ -1,18 +1,15 @@
 module.exports = {
-  content: [
-    "./demo/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./sections/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
-  darkMode: 'class',
-  theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [require("@tailwindcss/typography")
-],
+	content: [
+		"./src/pages/**/*.{js,ts,jsx,tsx}",
+		"./src/components/**/*.{js,ts,jsx,tsx}",
+		"./src/components/sections/**/*.{js,ts,jsx,tsx}",
+	],
+	darkMode: "class",
+	theme: {
+		extend: {},
+	},
+	variants: {
+		extend: {},
+	},
+	plugins: [require("@tailwindcss/typography")],
 };
-
