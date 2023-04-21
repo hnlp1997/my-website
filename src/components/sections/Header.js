@@ -24,12 +24,11 @@ const Header = () => {
 
 	const currentTheme = theme == "system" ? systemTheme : theme;
 
-	if (isLoading) return null;
 	return (
 		<>
 			<header className="flex w-full items-center justify-between flex">
 				<div className="flex pl-3 mt-3">
-					{data?.isPlaying ? (
+				{!isLoading && data?.isPlaying ? (
 						<span className="transition-colors duration-150 rounded-md w-auto pr-24 pl-2 py-2 pb-2 pt-1 bg-transparent flex gap-3 items-center">
 							<img
 								className="h-12 w-12"
