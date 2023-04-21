@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Logo from "../components/Logo";
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
-<<<<<<< HEAD
 import { BsSun, BsMoon } from "react-icons/bs";
 import useSWR from "swr";
 import Link from "next/link";
@@ -102,99 +101,6 @@ const Header = () => {
       </header>
     </>
   );
-=======
-import useSWR from "swr";
-import useSWR from "swr";
-
-const Header = () => {
-	const { systemTheme, theme, setTheme } = useTheme();
-	const [mounted, setMounted] = useState(false);
-	const fetcher = (url) =>
-		fetch(url).then((r) => {
-			return r.json();
-		});
-	const { data } = useSWR("/api/spotify", fetcher);
-    const { systemTheme, theme, setTheme } = useTheme();
-    const [mounted, setMounted] = useState(false);
-    const fetcher = (url) =>
-        fetch(url).then((r) => {
-            return r.json();
-        });
-    const { data } = useSWR("/api/spotify-now-playing", fetcher);
-
-    useEffect(() => {
-        setMounted(true);
-    }, []);
-
-    const renderThemeChanger = () => {
-        if (!mounted) return null;
-
-        const currentTheme = theme == "system" ? systemTheme : theme;
-
-		if (currentTheme == "dark") {
-			return (
-				<SunIcon
-					className="w-10 h-10"
-					role="button"
-					onClick={() => setTheme("light")}
-				/>
-			);
-		} else {
-			return (
-				<MoonIcon
-					className="w-10 h-10 border-white"
-					role="button"
-					onClick={() => setTheme("dark")}
-				/>
-			);
-		}
-	};
-        if (currentTheme == "dark") {
-            return (
-                <SunIcon
-                    className="w-10 h-10"
-                    role="button"
-                    onClick={() => setTheme("light")}
-                />
-            );
-        } else {
-            return (
-                <MoonIcon
-                    className="w-10 h-10 border-white"
-                    role="button"
-                    onClick={() => setTheme("dark")}
-                />
-            );
-        }
-    };
-
-	return (
-		<>
-			<header className="flex justify-between w-full">
-				<Logo />
-				<div className="pr-4">{renderThemeChanger()}</div>
-			</header>
-			{data?.isPlaying && (
-				<div className="flex justify-center items-center -mt-8">
-					<span className="transition-colors duration-150 rounded-md w-auto pr-24 pl-2 py-2 bg-slate-900 hover:bg-gray-800 flex gap-3 items-center">
-						<img
-							className="h-12 w-12"
-							src={data.album.image.href}
-							alt="Album Art"
-						/>
-						<div className="flex flex-col text-left">
-							<span className="text-xs text-gray-400">Recently Played</span>
-							<a href={data.href} className="text-sm !text-white">
-								{data.title}
-							</a>
-							<a className="text-xs !text-gray-400">{data.artists[0].name}</a>
-						</div>
-					</span>
-				</div>
-			)}
-		</>
-	);
->>>>>>> 60c00f94bf8997f82a92b1164964b9dcf1612a9b
 };
 
 export default Header;
