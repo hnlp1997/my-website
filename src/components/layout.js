@@ -7,13 +7,13 @@ import Header from "./sections/Header";
 import Footer from "./sections/Footer";
 
 const name = "Hoang-Nam LuuPham";
-export const siteTitle = '"Hi HN!"';
+export const siteTitle = 'Nam';
 
 export default function Layout({ children, home }) {
 	return (
 		<>
 			<Head>
-				<link rel="icon" href="/speech.ico" />
+				<link rel="icon" href="https://em-content.zobj.net/thumbs/240/apple/354/sunflower_1f33b.png" />
 				<title>Hoang-Nam LuuPham</title>
 				<meta name="description" content="Welcome to Nam's Website!" />
 			</Head>
@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
 						<Link href="/">← Back to home</Link>
 					</div>
 				)}
-				<div className="flex fixed bottom-2">
+				<div className="flex fixed bottom-8">
 					<Footer />
 				</div>
 			</div>
