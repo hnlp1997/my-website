@@ -30,7 +30,7 @@ const Header = () => {
       <header className="flex w-full items-center justify-between flex">
         <div className="flex pl-3 mt-3">
           {!isLoading && data?.isPlaying ? (
-            <span className="transition-colors duration-150 rounded-md w-auto pr-24 pl-1 py-2 pb-2 pt-1 bg-transparent flex gap-3 items-center">
+            <div className="transition-colors duration-150 min-h-[72px] rounded-md w-auto pr-24 pl-1 py-2 pb-2 pt-1 bg-transparent flex gap-3 items-center">
               <img
                 className="h-12 w-12"
                 src={data.album.image.href}
@@ -53,11 +53,11 @@ const Header = () => {
                   {data.artists[0].name}
                 </a>
               </div>
-            </span>
+            </div>
           ) : (
             <Link
               href="https://open.spotify.com/user/haloblade24"
-              className="flex items-center gap-2 !text-black group dark:!text-white"
+              className="min-h-[72px] flex items-center gap-2 !text-black group dark:!text-white"
               target="_blank"
             >
               {" "}
