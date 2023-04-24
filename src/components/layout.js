@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
 	return (
 		<>
 			<Head>
-				<link rel="icon" href="https://em-content.zobj.net/thumbs/240/apple/354/sunflower_1f33b.png" />
+				<link rel="icon" href="https://em-content.zobj.net/thumbs/240/apple/354/snowman_2603-fe0f.png" />
 				<title>Hoang-Nam LuuPham</title>
 				<meta name="description" content="Welcome to Nam's Website!" />
 			</Head>
@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
 						<></>
 					)}
 				</header>
-				<main>{children}</main>
+				{children}
 				{!home && (
 					<div className={styles.backToHome}>
 				

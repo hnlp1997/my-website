@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { ReactNode } from "react";
+import Tooltip from "./sections/tooltips";
 
 export default function NavItem({ href, title, icon }) {
   return (
+    <Tooltip title={title}>
     <div>
       <Link
         href={href}
@@ -15,5 +17,6 @@ export default function NavItem({ href, title, icon }) {
         {icon}
       </Link>
     </div>
+    </Tooltip>
   );
 }
