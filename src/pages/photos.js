@@ -2,25 +2,31 @@ import Link from "next/link";
 import Image from "next/image";
 import cloudinary from "../lib/cloudinary";
 import getBase64ImageUrl from "../lib/getbase64imageurl";
+import Layout from "/Users/hnluupham/Downloads/demo 4 2/src/components/layout.js";
+
+const name = "Photos";
+export const siteTitle = 'Nam';
 
 export default function Photos({ images }) {
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-      {images.map((image) => (
-        <Image
-          src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_482,h_700/${image.public_id}.${image.format}`}
-          width={482}
-          height={700}
-          sizes="(max-width: 640px) 100vw,
+    <Layout>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+        {images.map((image) => (
+          <Image
+            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_482,h_700/${image.public_id}.${image.format}`}
+            width={482}
+            height={700}
+            sizes="(max-width: 640px) 100vw,
     (max-width: 1280px) 50vw,
     (max-width: 1536px) 33vw,
     25vw"
-    style={{ transform: "translate3d(0, 0, 0)" }}
-                placeholder="blur"
-                blurDataURL={image.blurDataUrl}
-        ></Image>
-      ))}
-    </div>
+            style={{ transform: "translate3d(0, 0, 0)" }}
+            placeholder="blur"
+            blurDataURL={image.blurDataUrl}
+          ></Image>
+        ))}
+      </div>
+    </Layout>
   );
 }
 export async function getStaticProps() {
@@ -40,12 +46,12 @@ export async function getStaticProps() {
       public_id: result.public_id,
       format: result.format,
     });
-    
+
     i++;
   }
 
   console.log(reducedResults);
- const blurImagePromises = results.resources.map((image) => {
+  const blurImagePromises = results.resources.map((image) => {
     return getBase64ImageUrl(image);
   });
   const imagesWithBlurDataUrls = await Promise.all(blurImagePromises);
