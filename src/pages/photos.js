@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import cloudinary from "../lib/cloudinary";
 import getBase64ImageUrl from "../lib/getbase64imageurl";
-import Layout from "/Users/hnluupham/Downloads/demo 4 2/src/components/layout.js";
+import Layout from "../components/layout.js";
 
 const name = "Photos";
 export const siteTitle = 'Nam';

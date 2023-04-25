@@ -1,5 +1,5 @@
 import Header from "../components/sections/Header";
-import Layout from "/Users/hnluupham/Downloads/demo 4 2/src/components/layout.js";
+import Layout from "../components/layout.js";
 <Header/>
 
 export default function Home() {
