@@ -4,22 +4,16 @@ import cloudinary from "../lib/cloudinary";
 import getBase64ImageUrl from "../lib/getbase64imageurl";
 import Layout from "../components/layout.js";
 
-const name = "Photos";
-export const siteTitle = 'Nam';
-
 export default function Photos({ images }) {
   return (
     <Layout>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+      <div className="mx-auto max-w-[1960px] px-44 grid grid-cols-3 gap-4 shrink-0 w-screen">
         {images.map((image) => (
           <Image
-            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_482,h_700/${image.public_id}.${image.format}`}
+            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_2560/${image.public_id}.${image.format}`}
             width={482}
             height={700}
-            sizes="(max-width: 640px) 100vw,
-    (max-width: 1280px) 50vw,
-    (max-width: 1536px) 33vw,
-    25vw"
+            className="shrink-0"
             style={{ transform: "translate3d(0, 0, 0)" }}
             placeholder="blur"
             blurDataURL={image.blurDataUrl}
