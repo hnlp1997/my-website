@@ -1,3 +1,4 @@
+/*
 .container {
   max-width: 36rem;
   padding: 0 1rem;
@@ -9,13 +10,16 @@
   align-items: center;
   text-align: center;
   overflow: hidden;
+  @apply w-screen
 
 }
+*/
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px 0 0 0;
 }
 
 .backToHome {

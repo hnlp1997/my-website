@@ -20,7 +20,11 @@ const Footer = () => (
         icon={<FaCamera className="h-6 w-6 text-gray-400" />}
         title={"Photos"}
       />
-
+      <NavItem
+        href="/posts"
+        icon={<BsPencilSquare className="h-6 w-6 text-gray-400" />}
+        title={"Posts"}
+      />
       <RedirectItem
         href="https://soundcloud.com/wwwnam"
         target="_blank"
@@ -35,11 +39,6 @@ const Footer = () => (
         title={"Github"}
       />
 
-      <NavItem
-        href="/posts"
-        icon={<BsPencilSquare className="h-6 w-6 text-gray-400" />}
-        title={"Blog"}
-      />
       <NavItem
         href="/about"
         icon={<IoPerson className="h-6 w-6 text-gray-400" />}
