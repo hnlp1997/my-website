@@ -7,13 +7,13 @@ import Layout from "../components/layout.js";
 export default function Photos({ images }) {
   return (
     <Layout>
-      <div className="mx-auto max-w-[1960px] px-44 grid grid-cols-3 gap-4 shrink-0 w-screen">
+      <div className="mx-auto max-w-[1960px] px-48 grid grid-cols-3 gap-4 shrink-0 w-screen ">
         {images.map((image) => (
           <Image
             src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_2560/${image.public_id}.${image.format}`}
             width={482}
             height={700}
-            className="shrink-0"
+            className="shrink-0 rounded"
             style={{ transform: "translate3d(0, 0, 0)" }}
             placeholder="blur"
             blurDataURL={image.blurDataUrl}
