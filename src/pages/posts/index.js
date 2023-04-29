@@ -12,9 +12,9 @@ function formatDate(dateString) {
 export default function Postpage({ allPostsData }) {
   return (
     <Layout>
-      <div className='center'>
+<div className="h-screen flex items-center justify-center" style={{ justifyContent: "center", paddingBottom: "30vh" }}>
     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <h2 className='text-center  font-extrabold text-3xl'>✌️ Blog Posts:</h2>
+      <h2 className='text-center  font-extrabold text-3xl leading-loose'>Blog Posts ✌️</h2>
       <ul className={utilStyles.list}>
         {allPostsData.map(({ id, date, title }) => (
           <li className={utilStyles.listItem} key={id}>

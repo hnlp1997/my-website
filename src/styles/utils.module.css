@@ -152,3 +152,10 @@
     @apply selection:bg-pink-300 selection:text-black dark:bg-pink-300  selection:dark:bg-pink-300 selection:dark:text-white;
 }
 
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
