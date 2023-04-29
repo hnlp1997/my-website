@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 const name = "Hoang-Nam LuuPham";
 export const siteTitle = "Hi Nam!";
 
-function capitalizeFirstLetter(string) {
+export function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
