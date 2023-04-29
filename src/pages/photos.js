@@ -26,7 +26,7 @@ export default function Photos({ images }) {
 export async function getStaticProps() {
   const results = await cloudinary.v2.search
     .expression(`folder:${process.env.CLOUDINARY_FOLDER}/*`)
-    .sort_by("public_id", "desc")
+    .sort_by("created_at", "desc")
     .max_results(400)
     .execute();
   const reducedResults = [];

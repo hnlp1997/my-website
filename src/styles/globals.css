@@ -41,7 +41,10 @@ img {
   }
 
   ::selection {
-    @apply text-white bg-blue-600;
-  }
+  background: #ff9a9e;
+  color: #fff;
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: #fff;
+}
 }
 

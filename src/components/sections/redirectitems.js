@@ -17,7 +17,7 @@ export default function RedirectItem({
         >
                 <button
                     aria-label={title}
-                    className="flex h-12 w-12 shrink-0 transform-none cursor-pointer items-center justify-center rounded-[23%] bg-primary-300 text-center text-black shadow-lg outline-none focus:outline-none dark:bg-primary-500 dark:bg-opacity-50 dark:text-primary-400"
+                    className="flex h-10 w-10 my-4 shrink-0 transform-none cursor-pointer items-center justify-center rounded-[23%] bg-[#F2F2F2] text-center text-black shadow-lg outline-none focus:outline-none dark:bg-[#313035] dark:bg-opacity-50 dark:text-primary-400"
                 >
                     {icon}
                 </button>

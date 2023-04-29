@@ -113,10 +113,6 @@
   line-height: 1.5;
 }
 
-.borderCircle {
-  border-radius: 9999px;
-}
-
 .colorInherit {
   color: inherit;
 }
@@ -146,10 +142,6 @@
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-}
-
-.body {
-    @apply selection:bg-pink-300 selection:text-black dark:bg-pink-300  selection:dark:bg-pink-300 selection:dark:text-white;
 }
 
 .center-container {

@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
               <Image
                 priority
                 src="/images/haha.jpeg"
-                className={utilStyles.borderCircle}
+                className='rounded-full'
                 height={175}
                 width={175}
                 alt={name}

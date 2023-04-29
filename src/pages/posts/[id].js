@@ -12,15 +12,15 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      <article className='w-full max-w-lg pb-64'>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={"flex justify-center items-center gap-x-2"}>
+        <div className={"flex justify-start items-center gap-x-2"}>
           <Image
             priority
             src="/images/haha.jpeg"
-            className={utilStyles.borderCircle}
-            height={45}
-            width={45}
+            className='rounded-full'
+            height={40}
+            width={40}
             alt={"Hoang-Nam"}
             href="/about"
           />
@@ -32,7 +32,7 @@ export default function Post({ postData }) {
         </div>
         <hr className="py-2 opacity-0" />
         <div
-          className={"prose text-left dark:prose-invert"}
+          className={"prose w-full text-left dark:prose-invert"}
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />
       </article>
