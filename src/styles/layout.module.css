@@ -1,19 +1,9 @@
-/*
-.container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
-  position: relative;
-  min-height: 100vh;
+.center {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  overflow: hidden;
-  @apply w-screen
-
+  height: 100vh;
 }
-*/
 
 .header {
   display: flex;

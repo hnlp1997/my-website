@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
       <div className={styles.container}>
         <header className={styles.header}>
           {home ? (
-            <div className='pt-16 flex flex-col items-center justify-center'>
+            <div className='  pt-24 flex flex-col items-center justify-center'>
               <Image
                 priority
                 src="/images/haha.jpeg"

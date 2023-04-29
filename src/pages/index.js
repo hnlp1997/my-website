@@ -14,8 +14,8 @@ export default function Home({ allPostsData }) {
 				<title>{siteTitle}</title>
 			</Head>
 			<section className={utilStyles.headingMd}>
-				<p className='max-w-lg text-left pt-0'>
-					Welcome to my website; please feel free to call me <strong>Nam</strong>! I’m pursuing an MS in Business Analytics at Santa
+				<p className=' max-w-xl text-center justify-center pt-0'>
+					Welcome to my website; please feel free to call me <strong>Nam</strong>. I am pursuing an MS in Business Analytics at Santa
 					Clara University. Contact me via{" "}
 					<a href="mailto:hnluupham@gmail.com">email</a> or on
 					<a href="https://www.linkedin.com/in/hnlp/" target="_blank">

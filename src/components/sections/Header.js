@@ -48,7 +48,7 @@ const Header = () => {
                 </a>
                 <a
                   href={data.artists[0].href}
-                  className="text-xs !text-gray-400"
+                  className="text-xs !text-gray-400 truncate max-w-[110px]"
                   target="_blank"
                 >
                   {data.artists[0].name}

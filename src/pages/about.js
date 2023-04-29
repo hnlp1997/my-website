@@ -16,8 +16,8 @@ export default function About() {
         </h1>
 
         <img src="/heart.jpeg" alt="Hoang-Nam LuuPham" height="250" width="250" className="text-center mx-auto transform round-image"/>
-
-        <p className={utilStyles.headingLg}>
+      <div className='max-w-lg'>
+        <p>
           My Website is a team of passionate individuals who strive to create the best possible web experiences for our clients. With years of experience and a dedication to staying up-to-date with the latest technologies and design trends, we bring our clients' visions to life.
         </p>
 
@@ -44,6 +44,7 @@ export default function About() {
             <p>Project Manager</p>
           </li>
         </ul>
+        </div>
       </main>
     </div>
   );

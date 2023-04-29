@@ -12,20 +12,22 @@ function formatDate(dateString) {
 export default function Postpage({ allPostsData }) {
   return (
     <Layout>
+      <div className='center'>
     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <h2 className={utilStyles.headingLg}>✌️ Updates:</h2>
+      <h2 className='text-center  font-extrabold text-3xl'>✌️ Blog Posts:</h2>
       <ul className={utilStyles.list}>
         {allPostsData.map(({ id, date, title }) => (
           <li className={utilStyles.listItem} key={id}>
             <Link href={`/posts/${id}`}>{title}</Link>
             <br />
             <small className={utilStyles.lightText}>
-              <Date dateString={date} />
+            {formatDate(date)}
             </small>
           </li>
         ))}
       </ul>
     </section>
+    </div>
     </Layout>
   );
 }

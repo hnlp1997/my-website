@@ -1,42 +1,43 @@
 import NavItem from "../NavItem";
-import { IoHome } from "react-icons/io5";
+import { HomeIcon } from "../icons";
 import { IoPerson } from "react-icons/io5";
-import { FaCamera } from "react-icons/fa";
+import { CameraIcon } from "../icons";
 import { RxGithubLogo } from "react-icons/rx";
-import { BsPencilSquare } from "react-icons/bs";
-import { ImSoundcloud2 } from "react-icons/im";
+import { PenIcon } from "../icons";
+import { ImSoundcloud } from "react-icons/im";
 import RedirectItem from "./redirectitems";
+import { GitHubIcon } from "../icons";
 
 const Footer = () => (
   <footer className="z-10 fixed inset-x-0 bottom-0 left-1/2 flex h-[70px] w-[calc(100%_-_64px)] max-w-max -translate-x-1/2 -translate-y-1/2 justify-between rounded-[23px] border-2 border-slate-50 border-primary-200 bg-primary-100 px-[10px]  text-sm shadow-primary backdrop-blur dark:border-primary-400 dark:border-opacity-20 dark:bg-mirage-900 dark:bg-opacity-[0.08]">
     <div className="flex w-full shrink-0 items-center gap-x-2 overflow-x-auto text-center">
       <NavItem
         href="/"
-        icon={<IoHome className="h-6 w-6 text-gray-400" />}
+        icon={<HomeIcon className="h-6 w-6 text-gray-400" />}
         title={"Home"}
       />
       <NavItem
         href="/photos"
-        icon={<FaCamera className="h-6 w-6 text-gray-400" />}
+        icon={<CameraIcon className="h-6 w-6 text-gray-400" />}
         title={"Photos"}
       />
       <NavItem
         href="/posts"
-        icon={<BsPencilSquare className="h-6 w-6 text-gray-400" />}
+        icon={<PenIcon className="h-6 w-6 text-gray-400" />}
         title={"Posts"}
       />
       <RedirectItem
         href="https://soundcloud.com/wwwnam"
         target="_blank"
-        icon={<ImSoundcloud2 className="h-6 w-6 text-gray-400" />}
+        icon={<ImSoundcloud className="h-6 w-6 text-gray-400" />}
         title={"SoundCloud"}
       />
 
       <RedirectItem
         href="https://github.com/hnlp1997"
         target="_blank"
-        icon={<RxGithubLogo className="h-6 w-6 text-gray-400" />}
-        title={"Github"}
+        icon={<GitHubIcon className="h-6 w-6 text-gray-400" />}
+        title={"GitHub"}
       />
 
       <NavItem
