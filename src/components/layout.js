@@ -8,7 +8,7 @@ import Footer from "./sections/Footer";
 import { useRouter } from "next/router";
 
 const name = "Hoang-Nam LuuPham";
-export const siteTitle = "Hi Nam!";
+export const siteTitle = "HN";
 
 export function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -22,7 +22,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link
           rel="icon"
-          href="https://em-content.zobj.net/thumbs/240/apple/354/snowman_2603-fe0f.png"
+          href="https://em-content.zobj.net/thumbs/240/apple/354/laptop_1f4bb.png"
         />
         <title> {capitalizeFirstLetter(router.pathname.replace("/", ""))}</title>
         <meta name="description" content="Welcome to Nam's Website!" />
@@ -34,7 +34,7 @@ export default function Layout({ children, home }) {
             <div className='  pt-24 flex flex-col items-center justify-center'>
               <Image
                 priority
-                src="/images/haha.jpeg"
+                src="/images/pop.jpeg"
                 className='rounded-full'
                 height={175}
                 width={175}

@@ -14,7 +14,7 @@ export default function About() {
         
         <link
           rel="icon"
-          href="https://em-content.zobj.net/thumbs/240/apple/354/snowman_2603-fe0f.png"
+          href="https://em-content.zobj.net/thumbs/240/apple/354/laptop_1f4bb.png"
         />
         <title> {capitalizeFirstLetter(router.pathname.replace("/", ""))}</title>
         <meta name="description" content="Welcome to Nam's Website!" />
@@ -22,7 +22,7 @@ export default function About() {
 
 
         <main className={utilStyles.headingMd}>
-          <h1 className="text-5xl flex flex-col w-full mb-12 text-left lg:text-center">
+          <h1 className="text-4xl flex flex-col w-full mb-12 text-left lg:text-center">
             About Me
           </h1>
           <div className='grid grid-cols-2 max-w-5xl items-center'>
