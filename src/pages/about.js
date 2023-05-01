@@ -55,7 +55,11 @@ export default function About() {
                   <li>My younger brother Ha also attends SCU (sophomore)</li>
                   <li>"LuuPham" is a combination of our parents' last names</li>
                   <li>
-                    No matter what, I have to walk at least 10k+ steps daily
+                    I have uploaded a total of 1 (one) vlog on my {" "}
+                    <a href="https://www.youtube.com/channel/UCxTs9t2B39FM5NB7zqVLFcw" target="_blank">
+                      {" "}
+                      YouTube 
+                    </a>{" "}
                   </li>
                   <li>
                     Favorite artists: G Jones, DECO*27, TWICE, Virtual Self
