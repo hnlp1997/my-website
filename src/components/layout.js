@@ -25,7 +25,8 @@ export default function Layout({ children, home }) {
           href="https://em-content.zobj.net/thumbs/240/apple/354/laptop_1f4bb.png"
         />
         <title> {capitalizeFirstLetter(router.pathname.replace("/", ""))}</title>
-        <meta name="description" content="Welcome to Nam's Website!" />
+        
+        <meta property="og:title" content="Nam's Website"></meta>
       </Head>
       <Header />
       <div className={styles.container}>

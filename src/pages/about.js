@@ -27,18 +27,18 @@ export default function About() {
               About Me
             </h1>
             <div className="grid grid-cols-2 max-w-4xl items-start">
-              <div className="prose prose-p:text-[16px] prose-ul:text-[16px] w-full text-left dark:prose-invert">
+              <div className="prose prose-p:text-[16px] prose-ul:text-[15px] w-full text-left dark:prose-invert">
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
-                  you! I’m 21 years old and am currently pursuing my Master's in
+                  you! I’m 21 years old and was born and raised in San Jose, CA. I am currently pursuing a Master's in
                   Business Analytics at Santa Clara University. This summer, I
                   will be interning at {" "}
                   <a href="https://www.gallo.com/" target="_blank">
                     {" "}
                     E. & J. Gallo Winery
                   </a>{" "}
-                  as a Systems Analyst. I'm passionate about the world of
-                  data analytics, as I enjoy transforming messy, unformatted
+                  as an IT Systems Analyst. I'm passionate about the world of
+                  data analytics, as I enjoy the art of transforming messy, unformatted
                   data into valuable insights! •‿•
                 </p>
                 <p className="flex underline">
@@ -63,8 +63,8 @@ export default function About() {
               <img
                 src="/hi.jpeg"
                 alt="Hoang-Nam LuuPham"
-                height="385"
-                width="385"
+                height="400"
+                width="400"
                 className="text-center mx-auto transform rounded-lg"
               />
             </div>
