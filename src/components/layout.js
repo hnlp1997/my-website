@@ -36,8 +36,8 @@ export default function Layout({ children, home }) {
                 priority
                 src="/images/pop.jpeg"
                 className='rounded-full'
-                height={175}
-                width={175}
+                height={155}
+                width={155}
                 alt={name}
               />
               <h1 className={utilStyles.headingXl}>{name}</h1>

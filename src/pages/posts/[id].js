@@ -13,7 +13,7 @@ export default function Post({ postData }) {
       </Head>
       <article className='w-full max-w-lg pb-64'>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={"flex justify-start items-center gap-x-2"}>
+        <div className={" text-sm flex justify-start items-center gap-x-2"}>
          
           <Link href="/about"> By Hoang-Nam LuuPham </Link>•
           <Date
@@ -23,7 +23,7 @@ export default function Post({ postData }) {
         </div>
         <hr className="py-2 opacity-0" />
         <div
-          className={"prose w-full text-left dark:prose-invert"}
+          className={"prose prose-sm w-full text-left dark:prose-invert"}
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />
       </article>

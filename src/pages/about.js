@@ -23,11 +23,11 @@ export default function About() {
           </Head>
 
           <main className={utilStyles.headingMd}>
-            <h1 className="text-4xl font-bold flex flex-col w-full mb-12 text-left lg:text-center pt-8">
+            <h1 className="text-3xl font-bold flex flex-col w-full mb-10 text-left lg:text-center pt-8">
               About Me
             </h1>
-            <div className="grid grid-cols-2 max-w-5xl items-start">
-              <div className="prose w-full text-left dark:prose-invert">
+            <div className="grid grid-cols-2 max-w-4xl items-start">
+              <div className="prose prose-p:text-[16px] prose-ul:text-[16px] w-full text-left dark:prose-invert">
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
                   you! I’m 21 years old and am currently pursuing my Master's in
@@ -44,7 +44,7 @@ export default function About() {
                 <p className="flex underline">
                   Here are some fun facts about me:
                 </p>
-                <ul className="list-disc list-inside indent-4">
+                <ul className="list-disc list-inside">
                   <li>
                     I DJ every Tuesday from 10-11 AM PST on{" "}
                     <a href="https://kscu.org/" target="_blank">
@@ -55,25 +55,16 @@ export default function About() {
                   <li>My younger brother Ha also attends SCU (sophomore)</li>
                   <li>"LuuPham" is a combination of our parents' last names</li>
                   <li>
-                    I have uploaded a total of 1 (one) vlog on my {" "}
-                    <a href="https://www.youtube.com/channel/UCxTs9t2B39FM5NB7zqVLFcw" target="_blank">
-                      {" "}
-                      YouTube 
-                    </a>{" "}
-                  </li>
-                  <li>
                     Favorite artists: G Jones, DECO*27, TWICE, Virtual Self
                   </li>
                   <li>Favorite anime: K-ON!, Eva, Ping Pong, Kaguya-sama</li>
                 </ul>
-
-                <h2 className="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"></h2>
               </div>
               <img
                 src="/hi.jpeg"
                 alt="Hoang-Nam LuuPham"
-                height="475"
-                width="475"
+                height="385"
+                width="385"
                 className="text-center mx-auto transform rounded-lg"
               />
             </div>
