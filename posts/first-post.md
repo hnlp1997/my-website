@@ -9,5 +9,7 @@ In my freshman year of high school (2015), I was heavily caught up in the progra
 
 My first project was very ambitious: create an e-commerce website for my clothing business using a custom payment processor. I decided to learn HTML + CSS + JavaScript through the help of [Free Code Camp](https://www.freecodecamp.org/)’s online courses. Those who have any amount of experience in programming know that building an entire e-commerce website from scratch is the worst possible decision to make as a beginner. My naive self did not realize this at the time, and I felt discouraged to continue my shortly-lived coding journey after encountering many roadblocks. I struggled with errors for hours and felt frustrated for not being able to get to the next step. Within a few weeks, I quit decided that I was not capable enough to learn anything related to programming.
 
+(I'm not done writing this yet!)
+
 
 
