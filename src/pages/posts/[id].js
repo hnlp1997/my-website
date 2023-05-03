@@ -15,7 +15,7 @@ export default function Post({ postData }) {
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={" text-sm flex justify-start items-center gap-x-2"}>
          
-          <Link href="/about"> By Hoang-Nam LuuPham </Link>•
+        By<Link href="/about">Hoang-Nam LuuPham </Link>•
           <Date
             className="text-black dark:text-white"
             dateString={postData.date}
