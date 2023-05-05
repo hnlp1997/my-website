@@ -11,7 +11,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className='w-full max-w-lg pb-64'>
+      <article className='w-full max-w-lg pb-24 lg:px-0 px-8 pt-12'>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={" text-sm flex justify-start items-center gap-x-2"}>
          
