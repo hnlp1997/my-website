@@ -19,7 +19,7 @@ As I became more and more comfortable with Python, my initial dread of taking th
 
 For some strange reason, I was having fun doing homework assignments for this Data Analytics class. I couldn’t understand why at the time, but I believe it was because it felt interesting, intuitive, and practical for real-world usage. I want to shout out Professor [Yu-Wei Lin](https://www.scu.edu/business/isa/faculty/lin/) for being a really thoughtful and patient teacher. He always took the time to answer my questions and offered valuable feedback. Without him, I don’t think I would enjoy data analytics nearly as much. 
 
-Here’s a funny story: for our final group project presentation, I rehearsed the slides with my group several times and had everyone wear business-casual attire. Once we got into class, we noticed that Professor Lin brought the entire class pizzas and soda. While every group was presenting, the other groups were listening while munching down on pizza. It was truly the first time where I felt happy doing a class presentation.
+Here’s a funny story: for our final group project presentation, I rehearsed the slides with my group several times and made everyone wear business-casual attire. Once we got into class, we noticed that Professor Lin brought the entire class pizzas and soda. While every group was presenting, the other groups were listening while munching down on pizza. It was truly the first time where I felt happy doing a class presentation.
 
 ![Group Presentations](https://cdn.discordapp.com/attachments/663146570765566003/1103122971691864074/b6b1a8e9-8087-45d0-b3d0-9df3acc1d414.JPG "The Group Presentation Day")
 
