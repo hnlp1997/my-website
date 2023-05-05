@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
       <div className={styles.container}>
         <header className={styles.header}>
           {home ? (
-            <div className='  pt-24 flex flex-col items-center justify-center'>
+            <div className='  lg:pt-24   pt-20 flex flex-col items-center justify-center'>
               <Image
                 priority
                 src="/images/pop.jpeg"
@@ -41,7 +41,7 @@ export default function Layout({ children, home }) {
                 width={155}
                 alt={name}
               />
-              <h1 className={utilStyles.headingXl}>{name}</h1>
+              <h1 className='lg:[font-size:2rem] [font-size:1.8rem] [line-height:1.3] [font-weight:800] [letter-spacing:-0.05rem] [margin:1rem_0]'>{name}</h1>
             </div>
           ) : (
             <></>

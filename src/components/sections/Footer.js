@@ -9,8 +9,7 @@ import RedirectItem from "./redirectitems";
 import { GitHubIcon } from "../icons";
 
 const Footer = () => (
-  <footer className="z-10 fixed inset-x-0 left-1/2 flex h-[60px] w-[calc(100%_-_64px)] max-w-max -translate-x-1/2 -translate-y-1/2 justify-between rounded-[48px] border-2 border-slate-50 border-primary-200 bg-primary-100 text-sm shadow-primary backdrop-blur dark:border-primary-400 dark:border-opacity-20 dark:bg-mirage-900 dark:bg-opacity-[0.08] px-2 -mt-3">
-    <div className="flex w-full shrink-0 items-center gap-x-3 overflow-x-auto text-center">
+  <footer className="fixed bottom-6 left-1/2 z-[1] box-content flex h-[40px] max-w-[calc(100%-64px)] -translate-x-1/2 items-end gap-3 rounded-2xl border border-[#00000012] bg-white/70 p-[10px] pb-[6px] will-change-contents [transform-origin:center_bottom] [backdrop-filter:blur(100px)_saturate(400%)_brightness(100%)] [box-shadow:0_30px_60px_rgba(0,0,0,0.12)] dark:border-[#ffffff14] dark:bg-[#161616cc] dark:[box-shadow:0_0_02px#ffffff07]">
       <NavItem
         href="/"
         icon={<HomeIcon className="h-5 w-5 text-gray-400" />}
@@ -45,7 +44,7 @@ const Footer = () => (
         icon={<IoPerson className="h-5 w-5 text-gray-400" />}
         title={"About Me"}
       />
-    </div>
+
   </footer>
 );
 

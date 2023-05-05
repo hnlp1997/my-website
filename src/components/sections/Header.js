@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex w-full items-center justify-between fixed">
+      <header className="flex w-full items-center justify-between fixed bg-inherit shrink-0">
         <div className="flex pl-3 mt-1">
           <div className=''>
           {!isLoading && data?.isPlaying ? (
@@ -62,7 +62,7 @@ const Header = () => {
               target="_blank"
             >
               {" "}
-              <SiSpotify className="w-9 h-9 text-gray-400 group-hover:text-green-500 duration-150" />{" "}
+              <SiSpotify className="w-9 h-9 text-gray-400 group-hover:text-green-500 duration-150 dark:bg-inherit" />{" "}
               <span className="text-gray-400"></span>
             </Link>
           )}
@@ -70,7 +70,7 @@ const Header = () => {
         </div>
         <button
           onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
-          className="p-3 border flex items-center justify-center rounded-md mt-1 mr-4 hover:text-blue-400 hover:border-blue-400"
+          className="p-3 border flex items-center justify-center rounded-md mt-1 mr-4 hover:text-blue-400 hover:border-blue-400  dark:bg-inherit"
         >
           {theme == "dark" ? (
             <BsSun className="w-3 h-3 shrink-0" />

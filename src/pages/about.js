@@ -23,10 +23,17 @@ export default function About() {
           </Head>
 
           <main className={utilStyles.headingMd}>
-            <h1 className="text-3xl font-bold flex flex-col w-full mb-10 text-left lg:text-center pt-8">
+            <h1 className="text-3xl font-bold flex flex-col w-full lg:mb-10 mb-4 text-center pt-12">
               About Me
             </h1>
-            <div className="grid grid-cols-2 max-w-4xl items-start">
+            <img
+                src="/hi.jpeg"
+                alt="Hoang-Nam LuuPham"
+                height="250"
+                width="250"
+                className="text-center mx-auto transform rounded-lg lg:hidden mb-4 lg:mb-0"
+              />
+            <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-w-4xl items-start  max-w-xs pb-24">
               <div className="prose prose-p:text-[16px] prose-ul:text-[15px] w-full text-left dark:prose-invert">
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
@@ -44,20 +51,20 @@ export default function About() {
                 <p className="flex underline">
                   Here are some fun facts about me:
                 </p>
-                <ul className="list-disc list-inside">
-                  <li>
+                <ul className="list-disc list-inside ">
+                  <li className='-ml-2'>
                     I DJ every Tuesday from 10-11 AM PST on{" "}
                     <a href="https://kscu.org/" target="_blank">
                       {" "}
                       kscu.org
                     </a>{" "}
                   </li>
-                  <li>My younger brother Ha also attends SCU (sophomore)</li>
-                  <li>"LuuPham" is a combination of our parents' last names</li>
-                  <li>
+                  <li className='-ml-2'>My younger brother Ha also attends SCU (sophomore)</li>
+                  <li className='-ml-2'>"LuuPham" is a combination of our parents' last names</li>
+                  <li className='-ml-2'>
                     Favorite artists: G Jones, DECO*27, TWICE, Virtual Self
                   </li>
-                  <li>Favorite anime: K-ON!, Eva, Ping Pong, Kaguya-sama</li>
+                  <li className='-ml-2'> Favorite anime: K-ON!, Eva, Ping Pong, Kaguya-sama</li>
                 </ul>
               </div>
               <img
@@ -65,7 +72,7 @@ export default function About() {
                 alt="Hoang-Nam LuuPham"
                 height="400"
                 width="400"
-                className="text-center mx-auto transform rounded-lg"
+                className="text-center mx-auto transform rounded-lg hidden lg:block"
               />
             </div>
           </main>
