@@ -14,7 +14,7 @@ export default function Postpage({ allPostsData }) {
     <Layout>
 <div className="h-screen flex items-center justify-center" style={{ justifyContent: "center", paddingBottom: "30vh" }}>
     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <h2 className='text-center  font-extrabold text-3xl leading-loose pb-4'>Blog Posts ✌️</h2>
+      <h2 className='text-center  font-extrabold text-3xl leading-loose lg:pb-4 pb-2 -mt-14 lg:mt-0'>Blog Posts ✌️</h2>
       <ul className={utilStyles.list}>
         {allPostsData.map(({ id, date, title }) => (
           <li className={utilStyles.listItem} key={id}>
