@@ -23,7 +23,7 @@ export default function About() {
           </Head>
 
           <main className={utilStyles.headingMd}>
-            <h1 className="text-3xl font-bold flex flex-col w-full lg:mb-10 mb-4 text-center lg:pt-12 pt-0">
+            <h1 className="text-3xl font-bold flex flex-col w-full lg:mb-8 mb-4 text-center lg:pt-12 pt-0">
               About Me
             </h1>
             <img
