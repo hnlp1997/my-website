@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
       <div className={styles.container}>
         <header className={styles.header}>
           {home ? (
-            <div className='  lg:pt-24   pt-20 flex flex-col items-center justify-center'>
+            <div className='  lg:pt-24  pt-2 flex flex-col items-center justify-center'>
               <Image
                 priority
                 src="/images/pop.jpeg"

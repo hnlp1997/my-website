@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex w-full items-center justify-between fixed bg-inherit shrink-0">
+      <header className="flex w-full items-center justify-between lg:fixed bg-inherit shrink-0">
         <div className="flex pl-3 mt-1">
           <div className=''>
           {!isLoading && data?.isPlaying ? (

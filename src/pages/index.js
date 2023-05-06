@@ -7,6 +7,8 @@ import Date from "../components/date";
 import useSWR from "swr";
 import { useState } from "react";
 
+
+
 export default function Home({ allPostsData }) {
   return (
     <Layout home>

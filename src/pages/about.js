@@ -23,14 +23,14 @@ export default function About() {
           </Head>
 
           <main className={utilStyles.headingMd}>
-            <h1 className="text-3xl font-bold flex flex-col w-full lg:mb-10 mb-4 text-center pt-12">
+            <h1 className="text-3xl font-bold flex flex-col w-full lg:mb-10 mb-4 text-center lg:pt-12 pt-0">
               About Me
             </h1>
             <img
                 src="/hi.jpeg"
                 alt="Hoang-Nam LuuPham"
-                height="250"
-                width="250"
+                height="200"
+                width="170"
                 className="text-center mx-auto transform rounded-lg lg:hidden mb-4 lg:mb-0"
               />
             <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-w-4xl items-start  max-w-xs pb-24">

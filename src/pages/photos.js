@@ -7,8 +7,8 @@ import Layout from "../components/layout.js";
 export default function Photos({ images }) {
   return (
     <Layout>
-      <div className='mx-auto max-w-[1960px] p-4 pt-16 lg:pt-0 lg:px-48 w-screen'>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 ">
+      <div className='mx-auto max-w-[1960px] px-5 p-4 pt-0 lg:pt-0 lg:px-48 w-screen'>
+      <div className="grid grid-cols-1 lg:gap-4 gap-2 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 ">
           {images.map((image) => (
             <Image
               src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_2560/${image.public_id}.${image.format}`}
