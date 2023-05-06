@@ -29,8 +29,8 @@ export default function About() {
             <img
                 src="/hi.jpeg"
                 alt="Hoang-Nam LuuPham"
-                height="225"
-                width="225"
+                height="275"
+                width="275"
                 className="text-center mx-auto transform rounded-lg lg:hidden mb-4 lg:mb-0"
               />
             <div className="grid lg:grid-cols-2 grid-cols-1 lg:max-w-4xl items-start  max-w-xs pb-24">
