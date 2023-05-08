@@ -11,7 +11,7 @@ My first project was very ambitious: create an e-commerce website for my clothin
 
 Fast forward to the present, I’m studying Business Management at Santa Clara University. I was fortunate enough to be accepted in the school’s 4+1 program, which allowed me to start taking Master’s courses during my senior year. I wanted to pursue an MS in Business Analytics to develop my technical skills. In Fall 2022, I was enrolled in an MS course called Data Analytics — Python. I was horrified at the high chance that I would fail the class due to my lack of competence in programming, so I decided to be proactive by self-learning Python through [Codecademy](https://www.codecademy.com/) before the quarter began. 
 
-![Codecademy](https://cdn-images-1.medium.com/v2/resize:fit:1600/1*FEtZccRA2OPHpn32bX5Q_A.png "Codecademy - Python 3 Course")
+![Codecademy](https://cdn-images-1.medium.com/v2/resize:fit:1600/1*FEtZccRA2OPHpn32bX5Q_A.png "Codecademy - Python 3")
 
 For those of you who are unfamiliar with Codecademy, its interface has an in-browser IDE (integrated development environment), which makes learning how to program much more beginner-friendly. At first, I expected myself to take the course for around a week, then quit halfway through. Thankfully, Python’s structure and usability just felt intuitive and clicked with me, unlike learning how to use HTML + CSS (I wasn’t aware of CSS’s terrible reputation until years later). Within a month, I successfully completed the course.
 
