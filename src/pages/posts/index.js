@@ -3,10 +3,10 @@ import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link"
 import Layout from "../../components/layout"
 
-function formatDate(dateString) {
+export function formatDate(dateString) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', options);
+  return date.toDateString('en-US', options);
 }
 
 export default function Postpage({ allPostsData }) {

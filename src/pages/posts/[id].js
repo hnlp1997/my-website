@@ -1,7 +1,6 @@
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
-import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 
@@ -16,10 +15,11 @@ export default function Post({ postData }) {
         <div className={" text-sm flex justify-start items-center gap-x-2"}>
          
         By<Link href="/about">Hoang-Nam LuuPham </Link>•
-          <Date
-            className="text-black dark:text-white"
-            dateString={postData.date}
-          />
+          
+    <p className="text-black dark:text-white">
+      {postData.date}
+    </p>
+         
         </div>
         <hr className="py-2 opacity-0" />
         <div

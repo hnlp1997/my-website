@@ -1,6 +1,6 @@
 ---
 title: 'My Programming Journey (So Far)'
-date: '2023-05-02'
+date: '05-02-2023'
 ---
 
 In my freshman year of high school (2015), I was heavily caught up in the programming craze. As someone born and raised in Silicon Valley, I was surrounded by many classmates aspiring to work in the tech industry. Largely successful entrepreneurs we used to not hate such as Mark Zuckerberg preached programming as the New Testament and encouraged everyone to start coding as soon as possible. I remember feeling inspired to plunge into the world of software engineering after watching this [YouTube video](https://www.youtube.com/watch?v=nKIu9yen5nc).

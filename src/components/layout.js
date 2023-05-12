@@ -16,7 +16,6 @@ export function capitalizeFirstLetter(string) {
 
 export default function Layout({ children, home }) {
   const router = useRouter();
-
   return (
     <>
       <Head>
@@ -24,7 +23,7 @@ export default function Layout({ children, home }) {
           rel="icon"
           href="https://em-content.zobj.net/thumbs/240/apple/354/laptop_1f4bb.png"
         />
-        <title> {capitalizeFirstLetter(router.pathname.replace("/", ""))}</title>
+        <title> {router.pathname.replace("/", "") ? capitalizeFirstLetter(router.pathname.replace("/", "")) : siteTitle}</title>
         
         <meta property="og:title" content="Nam's Website"></meta>
       </Head>
