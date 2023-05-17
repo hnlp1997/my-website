@@ -6,7 +6,7 @@ I started out with Next.js's [tutorial](https://nextjs.org/learn/basics/create-n
 
 ![Tutorial](https://cdn.discordapp.com/attachments/663146570765566003/1108462567971631134/image.png "Next.js's Tutorial")
 
-I reached out to my friend [Daniel Fu](https://github.com/itsnotaka), a web dev enthusiast, for assistance. He helped me a lot on this website, and showed me how to integrate different API's, such as [Spotify's API](https://developer.spotify.com/documentation/web-api) (to display whenever I'm listening to music on Spotify on the top left-hand corner) and [Cloudinary's API](https://cloudinary.com/documentation/image_upload_api_reference) (to capture the best photos from my phone's camera roll). 
+I reached out to my friend [Daniel Fu](https://github.com/itsnotaka), a web dev enthusiast, for assistance. He helped me a lot on this site, and showed me how to integrate different API's, such as [Spotify's API](https://developer.spotify.com/documentation/web-api) (to display whenever I'm listening to music on Spotify) and [Cloudinary's API](https://cloudinary.com/documentation/image_upload_api_reference) (to display my favorite photos taken from my phone). 
 
 ![My Website](https://cdn.discordapp.com/attachments/663146570765566003/1108465488062861312/image.png "Photos Page")
 
