@@ -2,7 +2,7 @@
 
 This is my very first project where I got to work with web development frameworks like Next.js + Tailwind CSS. As a "data analytics" person myself, doing web dev feels like a totally different ball field. On one hand, it was very rewarding and exciting to see your own code turn into something tangible (aka your application). On the other hand, I realized that web developers have a much tougher time of finding the answer/solution to errors since they are usually very specific to one's application, while errors found in data analytics projects are more broad and easier to debug.
 
-I started out with Next.js's [tutorial](https://nextjs.org/learn/basics/create-nextjs-app), which helped me build a good foundation for my website. Next.js's sample site looks like [this](https://next-learn-starter.vercel.app/) (you may notice some similarities b/ this website and mine). I wanted to add more personality/functionality to my website, but didn't have enough experience with Next.js + Tailwind CSS to progress further. 
+I started out with Next.js's [tutorial](https://nextjs.org/learn/basics/create-nextjs-app), which helped me build a good foundation for my website. Next.js's sample site looks like [this](https://next-learn-starter.vercel.app/) (you may notice some similarities b/ this website and mine). I wanted to add more personality & functionality to my website, but didn't have enough experience with Next.js + Tailwind CSS to progress. 
 
 ![Tutorial](https://cdn.discordapp.com/attachments/663146570765566003/1108462567971631134/image.png "Next.js's Tutorial")
 
