@@ -37,23 +37,24 @@ export default function About() {
               <div className="prose prose-p:text-[16px] prose-ul:text-[15px] w-full text-left dark:prose-invert">
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
-                  you! I’m 21 years old and was born and raised in San Jose, CA. I am currently pursuing a Master's in
-                  Business Analytics at Santa Clara University. This summer, I
-                  will be interning at {" "}
+                  you! I’m 22 years old and was born and raised in San Jose, CA. This summer, I
+                  will be interning in Modesto at {" "}
                   <a href="https://www.gallo.com/" target="_blank">
                     {" "}
                     E. & J. Gallo Winery
                   </a>{" "}
                   as an IT Systems Analyst. I'm passionate about the world of
                   data analytics, as I enjoy the art of transforming messy, unformatted
-                  data into valuable insights! •‿•
+                  data into valuable insights. I am proficient in tools such as Excel, SQL, Python, R, and Tableau! •‿•
+
+
                 </p>
                 <p className="flex underline">
                   Here are some fun facts about me:
                 </p>
                 <ul className="list-disc list-inside ">
                   <li className='-ml-2'>
-                    I DJ every Tuesday from 10-11 AM PST on{" "}
+                    I DJ live every Tuesday from 10-11 AM PST on{" "}
                     <a href="https://kscu.org/" target="_blank">
                       {" "}
                       kscu.org
