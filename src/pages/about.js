@@ -53,7 +53,7 @@ export default function About() {
                   Here are some fun facts about me:
                 </p>
                 <ul className="list-disc list-inside ">
-                  <li className='-ml-2'>I love to DJ (hit me up and I'll perform for free!)</li>
+                  <li className='-ml-2'>I love to DJ (hit me up via email and I'll perform for free!)</li>
                   <li className='-ml-2'>My younger brother Ha also attends SCU (sophomore)</li>
                   <li className='-ml-2'>"LuuPham" is a combination of our parents' last names</li>
                   <li className='-ml-2'>
