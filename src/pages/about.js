@@ -37,9 +37,9 @@ export default function About() {
               <div className="prose prose-p:text-[16px] prose-ul:text-[15px] w-full text-left dark:prose-invert">
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
-                  you! I’m 22 years old and was born and raised in San Jose, CA. I'm passionate about the world of
-                  data analytics, as I enjoy the art of transforming messy, unformatted
-                  data into valuable insights. I am proficient in tools such as Excel, SQL, Python, R, and Tableau! •‿•
+                  you! I’m 22 years old and was born and raised in San Jose, CA. 
+                  In my free time, I love to DJ, watch anime, wear nice clothes, and relax with my friends and family! 
+                   •‿•
 
 
                 </p>
@@ -47,8 +47,7 @@ export default function About() {
                   Here are some fun facts about me:
                 </p>
                 <ul className="list-disc list-inside ">
-                  <li className='-ml-2'>I love to DJ (hit me up via email and I'll perform for free!)</li>
-                  <li className='-ml-2'>My younger brother Ha also attends SCU (sophomore)</li>
+                  <li className='-ml-2'>My younger brother Ha also attends SCU (junior)</li>
                   <li className='-ml-2'>"LuuPham" is a combination of our parents' last names</li>
                   <li className='-ml-2'>
                     Favorite artists: G Jones, DECO*27, TWICE, Virtual Self
