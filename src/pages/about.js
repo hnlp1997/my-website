@@ -37,8 +37,8 @@ export default function About() {
               <div className="prose prose-p:text-[16px] prose-ul:text-[15px] w-full text-left dark:prose-invert">
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
-                  you! I’m 22 years old and was born and raised in San Jose, CA. 
-                  In my free time, I love to DJ, watch anime, wear nice clothes, and relax with my friends and family! 
+                  you! I’m 22 years old and was born and raised in San Jose, CA. I'm currently pursuing a Master's in Business Analytics at Santa Clara University,
+                  aiming to graduate in June 2024. In my free time, I love to DJ, watch anime, wear nice clothes, and relax with my friends and family! 
                    •‿•
 
 

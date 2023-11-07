@@ -16,9 +16,8 @@ export default function Home({ allPostsData }) {
       <Layout home>
         <section className=" text-[0.95rem] lg:text-[1.05rem] leading-6 mx-auto  px-7  mb-32">
           <p className=" max-w-lg text-center justify-center pt-0 mb-24">
-            Welcome to my website; please feel free to call me{" "}
-            <strong>Nam</strong>. I am pursuing an MS in Business Analytics at
-            Santa Clara University. Contact me via{" "}
+            Welcome; please feel free to call me{" "}
+            <strong>Nam</strong>. This website was built with Next.js, TailwindCSS, & Vercal. Contact me via{" "}
             <a href="mailto:hnluupham@gmail.com">email</a> or on
             <a href="https://www.linkedin.com/in/hnlp/" target="_blank">
               {" "}
