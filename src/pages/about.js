@@ -38,7 +38,7 @@ export default function About() {
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
                   you! I’m 22 years old and was born and raised in San Jose, CA. I'm currently pursuing a Master's in Business Analytics at Santa Clara University,
-                  aiming to graduate in June 2024. In my free time, I love to DJ, watch anime, wear nice clothes, and relax with my friends and family! 
+                  aiming to graduate in June 2024. In my spare time, I love to DJ, watch anime, collect vinyl, craft the best outfits, and hang out with my friends and family! 
                    •‿•
 
 
