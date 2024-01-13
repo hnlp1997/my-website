@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
           <p className=" max-w-lg text-center justify-center pt-0 mb-24">
             Welcome, please feel free to call me{" "}
             <strong>Nam</strong>! This website was built with Next.js, Tailwind CSS, Vercel, and lots of love. Feel free to contact me via my{" "}
-            <a href="mailto:hnluupham@gmail.com">email</a> if you have any questions!
+            <a href="mailto:hnluupham@gmail.com">email</a> if you ever have any questions!
           </p>
         </section>
       </Layout>
