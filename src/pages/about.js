@@ -38,7 +38,7 @@ export default function About() {
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
                   you! I’m 22 years old and was born and raised in San Jose, CA. I'm currently pursuing a Master's in Business Analytics at Santa Clara University,
-                  aiming to graduate in June 2024. In my spare time, I love to DJ, watch anime, collect vinyl, craft the best outfits, and hang out with my friends and family! 
+                  aiming to graduate in June 2024. In my spare time, I love to DJ, play the piano, watch anime, buy nice clothes, and hang out with my friends and family! 
                    •‿•
 
 
@@ -47,8 +47,8 @@ export default function About() {
                   Here are some fun facts about me:
                 </p>
                 <ul className="list-disc list-inside ">
-                  <li className='-ml-2'>My younger brother Ha also attends SCU (junior)</li>
-                  <li className='-ml-2'>"LuuPham" is a combination of our parents' last names</li>
+                  <li className='-ml-2'>The song "pick up the phone" was my gateway to listening to albums</li>
+                  <li className='-ml-2'>"LuuPham" is a combination of my parents' last names</li>
                   <li className='-ml-2'>
                     Favorite artists: G Jones, DECO*27, TWICE, Virtual Self
                   </li>

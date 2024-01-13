@@ -17,13 +17,8 @@ export default function Home({ allPostsData }) {
         <section className=" text-[0.95rem] lg:text-[1.05rem] leading-6 mx-auto  px-7  mb-32">
           <p className=" max-w-lg text-center justify-center pt-0 mb-24">
             Welcome, please feel free to call me{" "}
-            <strong>Nam</strong>! This website was built with Next.js, Tailwind CSS, Vercel, and lots of love. Feel free to contact me via{" "}
-            <a href="mailto:hnluupham@gmail.com">email</a> or on
-            <a href="https://www.linkedin.com/in/hnlp/" target="_blank">
-              {" "}
-              LinkedIn
-            </a>{" "}
-            if you have any questions!
+            <strong>Nam</strong>! This website was built with Next.js, Tailwind CSS, Vercel, and lots of love. Feel free to contact me via my{" "}
+            <a href="mailto:hnluupham@gmail.com">email</a> if you have any questions!
           </p>
         </section>
       </Layout>
