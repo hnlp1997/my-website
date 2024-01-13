@@ -47,7 +47,7 @@ export default function About() {
                   Here are some fun facts about me:
                 </p>
                 <ul className="list-disc list-inside ">
-                  <li className='-ml-2'>The song "pick up the phone" was my gateway to listening to albums</li>
+                  <li className='-ml-2'>"pick up the phone" was my gateway to listening to albums</li>
                   <li className='-ml-2'>"LuuPham" is a combination of my parents' last names</li>
                   <li className='-ml-2'>
                     Favorite artists: G Jones, DECO*27, TWICE, Virtual Self
