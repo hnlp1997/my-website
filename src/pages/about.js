@@ -37,8 +37,8 @@ export default function About() {
               <div className="prose prose-p:text-[16px] prose-ul:text-[15px] w-full text-left dark:prose-invert">
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
-                  you! I’m 23 years old and was born and raised in San Jose, CA. I'm currently pursuing a Master's in Business Analytics at Santa Clara University,
-                  aiming to graduate in June 2024. In my spare time, I love to DJ, play the piano, watch anime, build puzzles, wear nice clothes, and spend time with my FNF! 
+                  you! I’m 23 years old and was born and raised in San Jose, CA. I recently graduated w/ a Master's in Business Analytics at Santa Clara University in June 2024.
+                  In my free time, I love to learn Spanish, watch anime, build puzzles, thrift, and spend time with my friends and family! 
                    •‿•
 
 
@@ -49,9 +49,9 @@ export default function About() {
                 <ul className="list-disc list-inside ">
                   <li className='-ml-2'>"LuuPham" is a combination of my parents' last names</li>
                   <li className='-ml-2'>
-                    Favorite artists: G Jones, DECO*27, TWICE, Virtual Self
+                    Favorite artists: G Jones, Bladee, TWICE, TripleS
                   </li>
-                  <li className='-ml-2'> Favorite anime: K-ON!, Eva, Ping Pong, Kaguya-sama</li>
+                  <li className='-ml-2'> Favorite anime: K-ON!, Ouran, Ping Pong, Kaguya-sama</li>
                 </ul>
               </div>
               <img
