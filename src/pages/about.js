@@ -38,7 +38,7 @@ export default function About() {
                 <p className="">
                   My name is <span class="font-bold">Nam</span>, nice to meet
                   you! I’m 23 years old and was born and raised in San Jose, CA. I recently graduated w/ a Master's in Business Analytics at Santa Clara University in June 2024.
-                  In my free time, I love to learn Spanish, watch anime, build puzzles, thrift, and spend time with my friends and family! 
+                  In my free time, I love to learn Spanish, watch anime, DJ, play racket sports, build puzzles, thrift, and spend time with my friends and family! 
                    •‿•
 
 
@@ -49,9 +49,15 @@ export default function About() {
                 <ul className="list-disc list-inside ">
                   <li className='-ml-2'>"LuuPham" is a combination of my parents' last names</li>
                   <li className='-ml-2'>
-                    Favorite artists: G Jones, Bladee, TWICE, TripleS
+                    I worship: TWICE, G Jones, Bladee, and Porter Robinson
                   </li>
                   <li className='-ml-2'> Favorite anime: K-ON!, Ouran, Ping Pong, Kaguya-sama</li>
+                  <li className='-ml-2'> I sell clothes on my 
+   <a href="https://www.depop.com/xailai" target="_blank" rel="noopener noreferrer"> Depop</a>,
+  <a href="https://www.ebay.com/usr/xailai" target="_blank" rel="noopener noreferrer"> eBay</a>,
+  and <a href="https://www.grailed.com/xailai" target="_blank" rel="noopener noreferrer">Grailed</a> (plz buy)
+</li>
+
                 </ul>
               </div>
               <img
